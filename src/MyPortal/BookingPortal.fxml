@@ -46,7 +46,7 @@
                 </HBox>
                 <HBox alignment="CENTER" translateY="20.0">
                     <children>
-                        <Label alignment="CENTER" contentDisplay="CENTER" text="CHECK IN DATE :" textFill="WHITE">
+                        <Label alignment="TOP_LEFT" prefWidth="400.0" text="CHECK IN DATE :" textFill="WHITE">
                             <font>
                                 <Font name="System Bold" size="24.0" />
                             </font>
@@ -75,7 +75,7 @@
                 </HBox>
             <HBox alignment="CENTER" layoutX="10.0" layoutY="176.0">
                <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" text="CHECK OUT DATE :" textFill="WHITE">
+                  <Label alignment="TOP_LEFT" prefWidth="400.0" text="CHECK OUT DATE :" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="24.0" />
                      </font>
