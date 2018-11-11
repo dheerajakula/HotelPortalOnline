@@ -17,7 +17,7 @@
             <children>
                 <HBox alignment="CENTER" translateY="20.0">
                     <children>
-                        <ComboBox editable="true" prefHeight="47.0" prefWidth="430.0" promptText="enter location" style="-fx-border-radius: 250;">
+                        <ComboBox editable="true" prefWidth="400.0" promptText="enter location" style="-fx-border-radius: 250;">
                             <HBox.margin>
                                 <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                             </HBox.margin>
@@ -25,7 +25,7 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                         </ComboBox>
-                        <Button mnemonicParsing="false" style="-fx-background-radius: 20; -fx-background-color: GREEN;" text="OK">
+                        <Button mnemonicParsing="false" style="-fx-background-radius: 20; -fx-background-color: GREEN;" text="OK" textAlignment="RIGHT">
                             <font>
                                 <Font name="System Bold Italic" size="22.0" />
                             </font>
@@ -37,10 +37,16 @@
                             </padding>
                         </Button>
                     </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
                 </HBox>
                 <HBox alignment="CENTER" translateY="20.0">
                     <children>
-                        <Label alignment="CENTER" contentDisplay="CENTER" text="CHECK IN DATE :" textAlignment="CENTER" textFill="WHITE" translateX="10.0" translateY="10.0">
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="CHECK IN DATE :" textFill="WHITE">
                             <font>
                                 <Font name="System Bold" size="24.0" />
                             </font>
@@ -51,7 +57,7 @@
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
                         </Label>
-                        <DatePicker promptText="DD/MM/YYYY" style="-fx-background-radius: 0;" translateX="20.0" translateY="20.0">
+                        <DatePicker promptText="DD/MM/YYYY" style="-fx-background-radius: 0;">
                             <HBox.margin>
                                 <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                             </HBox.margin>
@@ -60,31 +66,43 @@
                      </padding>
                         </DatePicker>
                     </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
                 </HBox>
-                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" translateY="20.0">
-                    <children>
-                        <Label alignment="CENTER" contentDisplay="CENTER" text="CHECK OUT DATE :" textAlignment="CENTER" textFill="WHITE" translateX="15.0" translateY="30.0">
-                            <font>
-                                <Font name="System Bold" size="24.0" />
-                            </font>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="176.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="CHECK OUT DATE :" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
                      <HBox.margin>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </HBox.margin>
                      <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
-                        </Label>
-                        <DatePicker promptText="DD/MM/YYYY" translateX="15.0" translateY="20.0">
-                            <HBox.margin>
-                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                            </HBox.margin>
+                  </Label>
+                  <DatePicker promptText="DD/MM/YYYY" style="-fx-background-radius: 0;">
+                     <HBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </HBox.margin>
                      <padding>
                         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                      </padding>
-                        </DatePicker>
-                    </children>
-                </HBox>
-            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                  </DatePicker>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER">
                <children>
                       <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" style="-fx-background-color: ORANGE; -fx-background-radius: 20;" text="SEARCH" textAlignment="CENTER">
                           <font>
@@ -98,6 +116,12 @@
                      </padding>
                       </Button>
                </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
             </HBox>
             </children>
         </VBox>
