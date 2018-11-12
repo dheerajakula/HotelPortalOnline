@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Controller implements Initializable {
+public class MyPortalController implements Initializable {
     public TextField usernameTextField;
     public PasswordField passwordPasswordField;
     public Button loginButton;
@@ -50,5 +50,4 @@ public class Controller implements Initializable {
     }
 
 }
-// hello wprld
-// this is shityyy
+
