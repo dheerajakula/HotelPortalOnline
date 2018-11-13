@@ -14,7 +14,7 @@ public class Main extends Application {
         window = primaryStage;
         Parent myPortal = FXMLLoader.load(getClass().getResource("MyPortal.fxml"));
 
-        window.setTitle("Hello World");
+        window.setTitle("Expedeity");
         window.setScene(new Scene(myPortal, 600  , 500));
         window.show();
     }
