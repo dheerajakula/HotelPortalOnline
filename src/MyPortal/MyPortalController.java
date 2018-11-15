@@ -54,17 +54,15 @@ public class MyPortalController implements Initializable {
             {
                 Stage currentWindow = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
                 Parent signup = null;
-                try
-                    {
-                        signup = FXMLLoader.load(getClass().getResource("signup.fxml"));
-                    }
-                catch (Exception e)
-                    {
-                        System.out.println(e);
-                    }
+                try {
+                    signup = FXMLLoader.load(getClass().getResource("SignUp.fxml"));
+                }
+                catch (Exception e) {
+                    System.out.println(e);
+                }
 
                 currentWindow.setTitle("Hello World");
-                currentWindow.setScene(new Scene(signup  , 1280  , 720));
+                currentWindow.setScene(new Scene(signup,600,800));
                 currentWindow.show();
 
 

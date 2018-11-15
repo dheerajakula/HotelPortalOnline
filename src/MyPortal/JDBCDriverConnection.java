@@ -2,6 +2,7 @@ package MyPortal;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Stack;
 
@@ -66,6 +67,25 @@ public class JDBCDriverConnection {
             System.exit(0);
         }
         return authenticated;
+    }
+
+    public static boolean createUser(String name, Date dob,String email,String address,String username,String password){
+        boolean userCreated = false;
+
+        try{
+
+            stmt = conn.createStatement();
+            stmt.executeUpdate("INSERT INTO users(name,dob,email,address,username,password) VALUES " + "(" + "'" + name + "'" +","+ "'" + dob.toString() + "'"+"," +  "'" + email + "'" +","+ "'" + address + "'" +"," + "'" + username + "'" +"," + "'" + password + "'" +")");
+            stmt.close();
+            userCreated = true;
+        }
+
+        catch (SQLException e){
+            System.out.println("nope");
+            System.out.println(e);
+            userCreated = false;
+        }
+        return userCreated;
     }
 
     public static List<City> getCitiesList(){

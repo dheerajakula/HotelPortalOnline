@@ -17,7 +17,7 @@ public class Main extends Application {
         Parent myPortal = FXMLLoader.load(getClass().getResource("MyPortal.fxml"));
 
         window.setTitle("Expedeity");
-        window.setScene(new Scene(myPortal, 600  , 500));
+        window.setScene(new Scene(myPortal,600,800));
 
         window.show();
         JDBCDriverConnection.connect();
