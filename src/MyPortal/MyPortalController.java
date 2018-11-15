@@ -34,7 +34,7 @@ public class MyPortalController implements Initializable {
                 if(authenticated){
                     Parent bookingPortal = null;
                     try{
-                        bookingPortal = FXMLLoader.load(getClass().getResource("BookingPortal.fxml"));
+                        bookingPortal = FXMLLoader.load(getClass().getResource("BookingPortalCity.fxml"));
                     }
                     catch (Exception e){
                         System.out.println(e);

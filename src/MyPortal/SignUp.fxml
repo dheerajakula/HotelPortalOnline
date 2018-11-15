@@ -13,7 +13,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane style="-fx-background-color: #0C004C;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyPortal.SignUpController">
    <center>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="621.0" prefWidth="482.0" style="-fx-background-color: #0C004C;">
@@ -34,9 +33,9 @@
             </Separator>
             <Pane layoutY="91.0" prefHeight="532.0" prefWidth="482.0">
                <children>
-                  <TextField id="nameTextField" fx:id="nameTextField" alignment="CENTER" layoutX="152.0" layoutY="82.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
+                  <TextField id="nameTextField" fx:id="nameTextField" alignment="CENTER" layoutX="152.0" layoutY="82.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-text-fill: white; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
                      <font>
-                        <Font name="FreeMono" size="14.0" />
+                        <Font name="FreeMono" size="20.0" />
                      </font>
                   </TextField>
                   <Label layoutX="63.0" layoutY="90.0" text="Name" textFill="#ddd9d9">
@@ -49,9 +48,9 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <TextField id="emailTextField" fx:id="emailTextField" alignment="CENTER" layoutX="152.0" layoutY="200.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
+                  <TextField id="emailTextField" fx:id="emailTextField" alignment="CENTER" layoutX="152.0" layoutY="200.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-text-fill: white; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
                      <font>
-                        <Font name="FreeMono" size="14.0" />
+                        <Font name="FreeMono" size="20.0" />
                      </font>
                   </TextField>
                   <Label layoutX="63.0" layoutY="208.0" text="E-mail" textFill="#ddd9d9">
@@ -60,9 +59,9 @@
                      </font>
                   </Label>
                   <DatePicker id="dateofbirthDatePicker" fx:id="dateofbirthDatePicker" layoutX="185.0" layoutY="149.0" prefHeight="26.0" prefWidth="231.0" style="-fx-border-color: #9643A9; -fx-border-radius: 0; -fx-background-radius: 0; -fx-background-color: #0C004C; -fx-background-insets: 0;" />
-                  <TextField id="addressTextField" fx:id="addressTextField" alignment="CENTER" layoutX="152.0" layoutY="263.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
+                  <TextField id="addressTextField" fx:id="addressTextField" alignment="CENTER" layoutX="152.0" layoutY="263.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-text-fill: white; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
                      <font>
-                        <Font name="FreeMono" size="14.0" />
+                        <Font name="FreeMono" size="20.0" />
                      </font>
                   </TextField>
                   <Label layoutX="63.0" layoutY="271.0" text="Address" textFill="#ddd9d9">
@@ -75,9 +74,9 @@
                         <Font size="18.0" />
                      </font>
                   </Button>
-                  <TextField id="usernameTextField" fx:id="usernameTextField" alignment="CENTER" layoutX="153.0" layoutY="326.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
+                  <TextField id="usernameTextField" fx:id="usernameTextField" alignment="CENTER" layoutX="153.0" layoutY="326.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-text-fill: white; -fx-background-color: #0C004C; -fx-background-insets: 0; -fx-border-radius: 20;">
                      <font>
-                        <Font name="FreeMono" size="14.0" />
+                        <Font name="FreeMono" size="20.0" />
                      </font>
                   </TextField>
                   <Label layoutX="63.0" layoutY="338.0" text="Username" textFill="#ddd9d9">
@@ -95,7 +94,10 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <PasswordField id="passwordPasswordField" fx:id="passwordPasswordField" layoutX="153.0" layoutY="389.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-background-color: #0C004C; -fx-border-radius: 20; -fx-background-radius: 20; -fx-background-insets: 0;" />
+                  <PasswordField id="passwordPasswordField" fx:id="passwordPasswordField" layoutX="153.0" layoutY="389.0" prefHeight="39.0" prefWidth="269.0" style="-fx-border-color: #9643A9; -fx-background-color: #0C004C; -fx-border-radius: 20; -fx-background-radius: 20; -fx-background-insets: 0;">
+                     <font>
+                        <Font size="20.0" />
+                     </font></PasswordField>
                   <Button id="loginButton" fx:id="loginButton" alignment="CENTER" contentDisplay="CENTER" layoutX="115.0" layoutY="459.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="123.0" style="-fx-border-color: #0C004C; -fx-background-color: #ff0000; -fx-border-radius: 20; -fx-background-radius: 20; -fx-background-insets: 0;" text="Login" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font size="18.0" />
