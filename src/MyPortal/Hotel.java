@@ -1,13 +1,11 @@
 package MyPortal;
 
-import java.util.List;
-
 public class Hotel {
+    public int id;
     public String name;
-    public List<Room> roomsList;
 
-    public Hotel(String name, List<Room> roomsList) {
+    public Hotel(int id,String name) {
+        this.id = id;
         this.name = name;
-        this.roomsList = roomsList;
     }
 }
