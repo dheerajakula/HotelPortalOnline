@@ -1,19 +1,20 @@
 package MyPortal;
 
 public class Room {
+    public int id;
+    public String name;
+    public float cost;
     public boolean isAvailable;
     public boolean isBreakfast;
     public boolean isWifi;
-    public int cost;
-    public String name;
     public String description;
 
-    public Room(boolean isAvailable, boolean isBreakfast, boolean isWifi, int cost, String name, String description) {
-        this.isAvailable = isAvailable;
+    public Room(int id, String name, float cost, boolean isBreakfast, boolean isWifi, String description) {
+        this.id = id;
+        this.name = name;
+        this.cost = cost;
         this.isBreakfast = isBreakfast;
         this.isWifi = isWifi;
-        this.cost = cost;
-        this.name = name;
         this.description = description;
     }
 }

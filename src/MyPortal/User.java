@@ -2,6 +2,7 @@ package MyPortal;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.text.ParseException;
+
 public class User {
 
     public String name;
